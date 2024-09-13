@@ -1,0 +1,7 @@
+---
+
+- name: Setup Keycloak
+  ansible.builtin.include_tasks: keycloak.yml
+
+- name: Install Parasol
+  ansible.builtin.include_tasks: workshop.yml
